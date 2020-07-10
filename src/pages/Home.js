@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Container, Row, Col } from 'reactstrap';
 
 export const Home = (props) => (
   <header className="masthead">
@@ -10,6 +11,11 @@ export const Home = (props) => (
       {/*<a className="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>*/}
     </div>
   </div>
+  <Container> 
+    <Row xs="2">
+      <Col xs="6">Section 1</Col>
+      <Col>Section 2</Col>
+    </Row>
+  </Container>
 </header>
-
 )
