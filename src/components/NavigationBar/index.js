@@ -1,6 +1,7 @@
 import React from 'react';
 import { Nav, Navbar, Form, FormControl, NavDropdown, Button } from 'react-bootstrap';
 import styled from 'styled-components';
+import './navbar.css';
 //import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import {
   BrowserRouter as Router,
@@ -31,29 +32,23 @@ export const NavigationBar = () => (
   <div className="row">
       <div className="col-md-12">
           <Router>
-              <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
-                  <Navbar.Brand href="#home">React Bootstrap Navbar</Navbar.Brand>
+              <Navbar className="color-nav" variant="dark" expand="lg" sticky="top">
+                  <Navbar.Brand href="/">GT IDEAS REU Summer 2020</Navbar.Brand>
                   <Navbar.Toggle aria-controls="basic-navbar-nav" />
                   <Navbar.Collapse id="basic-navbar-nav">
-                      <Nav className="mr-auto">
+                      <Nav className="ml-auto">
                       <Nav.Link href="/">Home</Nav.Link>
-                      <Nav.Link href="/about-us">Contact Us</Nav.Link>
-                      <Nav.Link href="/contact-us">About Us</Nav.Link>
+                      <Nav.Link href="/about">About</Nav.Link>
+                      <NavDropdown alignRight='true' title="Projects" id="dropdown-menu-align-right">
+                      <NavDropdown.Item href="/aggregators">Aggregators </NavDropdown.Item>
+                      <NavDropdown.Item href="/ml">ML</NavDropdown.Item>
+                      </NavDropdown>
+
                       </Nav>
                   </Navbar.Collapse>
               </Navbar>
               
-              <Switch>
-                  <Route exact path="/">
-                      {/*<Home />*/}
-                  </Route>
-                  <Route path="/about-us">
-                      
-                  </Route>
-                  <Route path="/contact-us">
-                      
-                  </Route>
-              </Switch>
+              
           </Router>
       </div>
   </div>
