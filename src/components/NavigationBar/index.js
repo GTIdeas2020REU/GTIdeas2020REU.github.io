@@ -33,7 +33,7 @@ export const NavigationBar = () => (
       <div className="col-md-12">
           <Router>
               <Navbar className="color-nav" variant="dark" expand="lg" sticky="top">
-                  <Navbar.Brand href="/">GT IDEAS REU Summer 2020</Navbar.Brand>
+                  <Navbar.Brand href="/">COV-IDEAS REU 2020</Navbar.Brand>
                   <Navbar.Toggle aria-controls="basic-navbar-nav" />
                   <Navbar.Collapse id="basic-navbar-nav">
                       <Nav className="ml-auto">

@@ -37,3 +37,11 @@
     margin: 20px;
     margin-right: 320px;
   }
+
+  .textindent{
+    text-indent: 18px;
+  }
+
+  #centerp{
+    text-align: center;
+  }
