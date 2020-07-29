@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { NavigationBar } from './components/NavigationBar';
 import Home from './pages/Home';
 import About from './pages/About';
-import { NoMatch } from './pages/NoMatch';
+import { Model } from './pages/Model';
 import Aggregators from './pages/Aggregators';
 import { NavbarBrand } from 'react-bootstrap';
 // src/assets/img/person-1.jpg
@@ -21,6 +21,7 @@ function App() {
             <Route exact path="/" component={Home} />
             <Route path="/about" component={About} />
             <Route path='/aggregators' component={Aggregators} />
+            <Route path='/modelgroup' component={Model} />
             
           </Switch>
         </Router>
