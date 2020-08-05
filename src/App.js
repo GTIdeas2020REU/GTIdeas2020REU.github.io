@@ -6,22 +6,24 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { NavigationBar } from './components/NavigationBar';
 import Home from './pages/Home';
 import About from './pages/About';
-import { Model } from './pages/Model';
+import Model  from './pages/Model';
 import Aggregators from './pages/Aggregators';
 import { NavbarBrand } from 'react-bootstrap';
+import createHistory from 'history/createBrowserHistory';
 // src/assets/img/person-1.jpg
 function App() {
 
   return (
     <div className="App">
       <React.Fragment>
-        <Router>
+
+        <Router history={history} basename={process.env.PUBLIC_URL}>
           <NavigationBar className="justify-content-end"/>
           <Switch>
-            <Route exact path="/" component={Home} />
-            <Route path="/about" component={About} />
-            <Route path='/aggregators' component={Aggregators} />
-            <Route path='/modelgroup' component={Model} />
+            <Route exact path={process.env.PUBLIC_URL + "/"} component={Home} />
+            <Route path={process.env.PUBLIC_URL + "/about"} component={About} />
+            <Route path={process.env.PUBLIC_URL + '/aggregators'} component={Aggregators} />
+            <Route path={process.env.PUBLIC_URL + '/modelgroup'} component={Model} />
             
           </Switch>
         </Router>

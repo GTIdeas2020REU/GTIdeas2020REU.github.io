@@ -9,6 +9,7 @@ import {
   Route,
   useParams,
 } from "react-router-dom";
+
 const Styles = styled.div`
 .navbar { background-color: #222; }
 a, .navbar-nav, .navbar-light .nav-link {
@@ -41,7 +42,7 @@ export const NavigationBar = () => (
                       <Nav.Link href="/about">About</Nav.Link>
                       <NavDropdown alignRight='true' title="Projects" id="dropdown-menu-align-right">
                       <NavDropdown.Item href="/aggregators">Aggregators </NavDropdown.Item>
-                      <NavDropdown.Item href="/ml">ML</NavDropdown.Item>
+                      <NavDropdown.Item href="/modelgroup">ML</NavDropdown.Item>
                       </NavDropdown>
 
                       </Nav>

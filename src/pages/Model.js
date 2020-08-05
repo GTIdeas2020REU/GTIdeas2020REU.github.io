@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import './Model.css';
 import modelheader from '../assets/img/modelbg.png'
+import { Container, Col, Image, Jumbotron, Button, Row } from 'react-bootstrap';
 
 export default class Model extends React.Component{
   render(){
@@ -18,10 +19,9 @@ export default class Model extends React.Component{
           <br></br>
           <Row>
             <Col xs={12} sm={8} className="main-section">
-              <p> The Aggregator project aims to show various past data readings of coronavirus data, as well as future predictions from various sources. 
-                The data is aggregated and organized on a public website where users can examine different forecasts relating to the COVID-19 pandemic, and 
-            make their own predictions about the future trajectory of factors relating to the pandemic such as daily deaths,
-            hospitalizations and cases.
+              <p> The Modeling project aims to evaluate the different types of forecasting models that have been used to predict the spread of COVID-19. 
+                The team has surveyed and classified the different types of models (i.e. compartmental/differential equations, neural networks, Bayesian, ARIMA, etc.) and is developing a scoring mechanism to evaluate which pre-existing forecasts have most accurately represented the current state of the pandemic. Furthermore, the Modeling team is creating original implementations of these types of models to test on a standardized dataset for further analysis.
+
               </p>
               
               <p></p>
@@ -29,7 +29,7 @@ export default class Model extends React.Component{
               <p></p>
             </Col>
             <Col xs={12} sm={4} className="sidebar-section">
-              <p></p>
+              <p>Graph example</p>
             </Col>
           </Row>
         </Container>

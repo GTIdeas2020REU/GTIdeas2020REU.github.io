@@ -26,7 +26,7 @@ export default class About extends React.Component {
         {/*<Image src={person} className="header-image" />*/}
         <Jumbotron fluid style={jumbotronstyle}>
           <h2>About Us</h2>
-          <p style={{color: 'white'}} id='centerp'>*Tagline goes here*</p>
+          <p style={{color: 'white'}} id='centerp'></p>
         </Jumbotron>
         <h1 style={{backgroundColor:'gray'}}>Faculty</h1>
         <br></br>
@@ -36,7 +36,7 @@ export default class About extends React.Component {
           <Col xs={12} sm={12} smOffset={2}>
             
             <h1 className='leftnamestyle'>Jacob Abernethy</h1>
-            <h5 className='leftnamestyle'><i>Professor, X Project Lead</i></h5>
+            <h5 className='leftnamestyle'><i>Professor</i></h5>
             <p className='leftnamestyle'>Jacob Abernethy is an Assistant Professor in Computer Science at Georgia Tech. He started his faculty career in the Department of Electrical Engineering and Computer Science at the University of Michigan. In October 2011 he finished a PhD in the Division of Computer Science at the University of California at Berkeley, and then spent nearly two years as a Simons postdoctoral fellow at the CIS department at UPenn. Abernethy's primary interest is in Machine Learning, with a particular focus in sequential decision making, online learning, online algorithms and adversarial learning models.
 </p>
           </Col>
@@ -50,13 +50,27 @@ export default class About extends React.Component {
           <br></br><br></br>
           <Col xs={12} sm={12} smOffset={2}>
             
-            <h1 className='leftnamestyle'>Frank The Tank</h1>
+            <h1 className='leftnamestyle'>B. Aditya Prakash</h1>
             <h5 className='leftnamestyle'><i>Professor</i></h5>
-            <p className='leftnamestyle'>That's a crooked tree. We'll send him to Washington. These little son of a guns hide in your brush and you just have to push them out. These trees are so much fun. I get started on them and I have a hard time stopping. How to paint. That's easy. What to paint. That's much harder. Be brave. The man who does the best job is the one who is happy at his job.
-            Anyone can paint. You can do anything here. So don't worry about it. Life is too short to be alone, too precious. Share it with a friend. Every highlight needs it's own personal shadow.<br></br><br></br>
-            That's what makes life fun. That you can make these decisions. That you can create the world that you want. Of course he's a happy little stone, cause we don't have any other kind. It's so important to do something every day that will make you happy.
-            You better get your coat out, this is going to be a cold painting. That's the way I look when I get home late; black and blue. That's crazy. We're trying to teach you a technique here and how to use it.</p>
+            <p className='leftnamestyle'><a href='http://www.cc.gatech.edu/~badityap'>B. Aditya Prakash</a> is an Associate Professor in the College of Computing at the Georgia Institute of Technology (“Georgia Tech”).
+             He received a Ph.D. from the Computer Science Department at Carnegie Mellon University in 2012, and a B.Tech (in CS) from the Indian Institute of Technology (IIT) -- Bombay in 2007. 
+             His research interests include Data Science, Machine Learning and AI, with emphasis on big-data problems in large real-world networks and time-series, with applications to computational epidemiology, urban computing, security and the Web. 
+             He was previously on the faculty of Computer Science at Virginia Tech. He is also a member of the infectious diseases modeling MIDAS network and core-faculty at the Center for Machine Learning (ML@GT) and the Institute for Data Engineering and Science (IDEaS) at Georgia Tech. Aditya’s Twitter handle is @badityap.
+</p>
           </Col>
+          <Col xs={12} sm={12} smOffset={2}>
+            
+            <h1 className='leftnamestyle'>Raf</h1>
+            <h5 className='leftnamestyle'><i>Professor</i></h5>
+            <p className='leftnamestyle'></p>
+          </Col>
+          <Col xs={12} sm={12} smOffset={2}>
+            
+            <h1 className='leftnamestyle'>Eric Schwartz</h1>
+            <h5 className='leftnamestyle'><i>Professor</i></h5>
+            <p className='leftnamestyle'></p>
+          </Col>
+
         </Container>
         <br></br><br></br>
 

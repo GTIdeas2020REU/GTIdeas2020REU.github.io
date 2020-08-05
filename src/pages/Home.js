@@ -39,7 +39,7 @@ export default class Home extends React.Component {
 <div>
       <Jumbotron style={jumbotronstyle}>
           <h2>We are COV-IDEAS REU 2020.</h2>
-          <p style={{color: 'white'}} id='centerp'>*Tagline goes here*</p>
+          <p style={{color: 'white'}} id='centerp'></p>
           <Link to="/about">
             <Button bsstyle="primary">Learn More</Button>
           </Link>
