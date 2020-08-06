@@ -43,6 +43,14 @@ export default class Home extends React.Component {
           <Link to="/about">
             <Button bsstyle="primary">Learn More</Button>
           </Link>
+          <br></br><br></br>
+          <Link to='/aggregators'>
+            <Button style={{margin:'20px'}}>Aggregators Project</Button>
+          </Link>
+          
+          <Link to='/modelgroup'>
+            <Button>Model Group Project</Button>
+          </Link>
         </Jumbotron>
 
       <Container fluid>

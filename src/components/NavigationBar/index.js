@@ -2,6 +2,7 @@ import React from 'react';
 import { Nav, Navbar, Form, FormControl, NavDropdown, Button } from 'react-bootstrap';
 import styled from 'styled-components';
 import './navbar.css';
+import { Link } from 'react-router-dom';
 //import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import {
   BrowserRouter as Router,
@@ -35,18 +36,18 @@ export const NavigationBar = () => (
           <Router>
               <Navbar className="color-nav" variant="dark" expand="lg" sticky="top">
                   <Navbar.Brand href="/">COV-IDEAS REU 2020</Navbar.Brand>
-                  <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                  {/*<Navbar.Toggle aria-controls="basic-navbar-nav" />
                   <Navbar.Collapse id="basic-navbar-nav">
                       <Nav className="ml-auto">
-                      <Nav.Link href="/">Home</Nav.Link>
+                      <Nav.Link to="/">Home</Nav.Link>
                       <Nav.Link href="/about">About</Nav.Link>
                       <NavDropdown alignRight='true' title="Projects" id="dropdown-menu-align-right">
-                      <NavDropdown.Item href="/aggregators">Aggregators </NavDropdown.Item>
-                      <NavDropdown.Item href="/modelgroup">ML</NavDropdown.Item>
+                      <NavDropdown.Item to="/aggregators">Aggregators </NavDropdown.Item>
+                      <NavDropdown.Item to="/modelgroup">ML</NavDropdown.Item>
                       </NavDropdown>
 
                       </Nav>
-                  </Navbar.Collapse>
+</Navbar.Collapse>*/}
               </Navbar>
               
               

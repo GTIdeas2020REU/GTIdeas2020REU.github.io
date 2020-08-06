@@ -17,12 +17,12 @@ function App() {
     <div className="App">
       <React.Fragment>
 
-        <Router history={history} basename={process.env.PUBLIC_URL}>
-          <NavigationBar className="justify-content-end"/>
+        <Router  basename={process.env.PUBLIC_URL}>
+        <NavigationBar className="justify-content-end"/>
           <Switch>
             <Route exact path={process.env.PUBLIC_URL + "/"} component={Home} />
-            <Route path={process.env.PUBLIC_URL + "/about"} component={About} />
-            <Route path={process.env.PUBLIC_URL + '/aggregators'} component={Aggregators} />
+            <Route path={process.env.PUBLIC_URL + "/about"} to='/about' component={About} />
+            <Route path={process.env.PUBLIC_URL + '/aggregators'} to='/aggregators' component={Aggregators} />
             <Route path={process.env.PUBLIC_URL + '/modelgroup'} component={Model} />
             
           </Switch>
