@@ -9,7 +9,7 @@ import About from './pages/About';
 <<<<<<< HEAD
 import Model  from './pages/Model';
 =======
-import { NoMatch } from './pages/NoMatch';
+
 >>>>>>> parent of 6f5039d... creating Model page
 import Aggregators from './pages/Aggregators';
 import { NavbarBrand } from 'react-bootstrap';
