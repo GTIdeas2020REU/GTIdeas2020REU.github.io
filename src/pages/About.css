@@ -1,0 +1,47 @@
+.header-image {
+    width: 100%;
+    margin-top: -2em;
+    margin-bottom: 2em;
+  }
+  
+  .about-profile-pic-left {
+    float: left;
+    margin: 0 1em 1em 0;
+  }
+
+  .about-profile-pic-right {
+    float: right;
+    padding-left: 30px;
+    margin: 1 0em 0em 1;
+  }
+
+  .leftnamestyle {
+    text-align: left;
+  }
+
+  .rightnamestyle {
+    padding-right: 200px;
+    text-align: right;
+  }
+  
+  .leftbiostyle {
+    text-align: left;
+    padding: 0px;
+    margin: 20px;
+    margin-left: 320px;
+  }
+
+  .rightbiostyle {
+    text-align: left;
+    padding: 0px;
+    margin: 20px;
+    margin-right: 320px;
+  }
+
+  .textindent{
+    text-indent: 18px;
+  }
+
+  #centerp{
+    text-align: center;
+  }

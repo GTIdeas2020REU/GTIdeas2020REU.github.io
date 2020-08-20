@@ -43,14 +43,6 @@ export default class Home extends React.Component {
           <Link to="/about">
             <Button bsstyle="primary">Learn More</Button>
           </Link>
-          <br></br><br></br>
-          <Link to='/aggregators'>
-            <Button style={{margin:'20px'}}>Aggregators Project</Button>
-          </Link>
-          
-          <Link to='/modelgroup'>
-            <Button>Model Group Project</Button>
-          </Link>
         </Jumbotron>
 
       <Container fluid>
@@ -59,12 +51,11 @@ export default class Home extends React.Component {
           <Col xs={12} sm={8} className="person-wrapper">
             
             <h3>Program Overview</h3>
-            <p className='biotext'> The COV-IDEAS REU was formed by various faculty across the country, joined together to mentor eight undergraduate students for a remote opportunity for summer research. Students work closely with faculty mentors on an original COVID-19 related research project, over a 10-week period. The two projects
+            <p className='biomaintext'> The COV-IDEAS REU was formed by various faculty across the country, joined together to mentor eight undergraduate students for a remote opportunity for summer research. Students work closely with faculty mentors on an original COVID-19 related research project, over a 10-week period. The two projects
             included in the program are the Aggregators and Model Projects. They gain experience in developing the project, collecting data, and analyzing the results.
             In addition to the additional projects, students attend weekly seminars with topics such as reading a scientific paper or workshops on different technologies.
               </p>
-            <p className='biotext'> The topical focus of the projects are on forecasting, prediction markets, machine learning and mathematical modelling. At the end of the program,
-            the individual projects will be showcased and published for all to see. </p>
+            <p className='biomaintext'> The topical focus of the projects are on forecasting, prediction markets, machine learning and mathematical modelling. Check out all of the work done for the projects <a href='https://github.com/GTIdeas2020REU'>here</a> </p>
           </Col>
           <Col xs={12} sm={4} className="person-wrapper">
             
@@ -73,7 +64,7 @@ export default class Home extends React.Component {
             IDEaS leverages expertise and resources from throughout Georgia Tech's colleges, research labs, and external partners, to define and pursue grand challenges in data science foundations and in data-driven discovery. 
             </p>
             <div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/" allowfullscreen></iframe>
+  
 </div>
           </Col>
           

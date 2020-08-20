@@ -6,15 +6,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { NavigationBar } from './components/NavigationBar';
 import Home from './pages/Home';
 import About from './pages/About';
-<<<<<<< HEAD
-<<<<<<< HEAD
 import Model  from './pages/Model';
-=======
-import { NoMatch } from './pages/NoMatch';
->>>>>>> parent of 6f5039d... creating Model page
-=======
-import { NoMatch } from './pages/NoMatch';
->>>>>>> parent of 6f5039d... creating Model page
 import Aggregators from './pages/Aggregators';
 import { NavbarBrand } from 'react-bootstrap';
 import createHistory from 'history/createBrowserHistory';
@@ -26,21 +18,12 @@ function App() {
       <React.Fragment>
 
         <Router  basename={process.env.PUBLIC_URL}>
-        <NavigationBar className="justify-content-end"/>
+          <NavigationBar className="justify-content-end"/>
           <Switch>
-<<<<<<< HEAD
             <Route exact path={process.env.PUBLIC_URL + "/"} component={Home} />
-            <Route path={process.env.PUBLIC_URL + "/about"} to='/about' component={About} />
-            <Route path={process.env.PUBLIC_URL + '/aggregators'} to='/aggregators' component={Aggregators} />
+            <Route path={process.env.PUBLIC_URL + "/about"} component={About} />
+            <Route path={process.env.PUBLIC_URL + '/aggregators'} component={Aggregators} />
             <Route path={process.env.PUBLIC_URL + '/modelgroup'} component={Model} />
-=======
-            <Route exact path="/" component={Home} />
-            <Route path="/about" component={About} />
-            <Route path='/aggregators' component={Aggregators} />
-<<<<<<< HEAD
->>>>>>> parent of 6f5039d... creating Model page
-=======
->>>>>>> parent of 6f5039d... creating Model page
             
           </Switch>
         </Router>
