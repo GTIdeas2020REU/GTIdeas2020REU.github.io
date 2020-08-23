@@ -42,7 +42,7 @@ export const NavigationBar = () => (
                       <Nav.Link href="/about">About</Nav.Link>
                       <NavDropdown alignRight='true' title="Projects" id="dropdown-menu-align-right">
                       <NavDropdown.Item href="/aggregators">Aggregators </NavDropdown.Item>
-                      <NavDropdown.Item href="/modelgroup">ML</NavDropdown.Item>
+                      <NavDropdown.Item href="/modelgroup">Modelling</NavDropdown.Item>
                       </NavDropdown>
 
                       </Nav>

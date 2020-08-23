@@ -1,31 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f344dff7417eddf249b9959a09f58ed3",
+    "revision": "fb0b6d4b6ab6a1cb6b0058f6467f1f6d",
     "url": "/index.html"
   },
   {
-    "revision": "c340093424a8e739d6a1",
-    "url": "/static/css/main.7cf1dd3b.chunk.css"
+    "revision": "913a526ab70ada7f4f36",
+    "url": "/static/css/main.400a22d5.chunk.css"
   },
   {
-    "revision": "2692c4b012d968bf94ca",
-    "url": "/static/js/2.6d135cd0.chunk.js"
+    "revision": "7921788bb0058f535d40",
+    "url": "/static/js/2.a203ce94.chunk.js"
   },
   {
     "revision": "4fdb92f5a0a11be5d79ae606cb253c2b",
-    "url": "/static/js/2.6d135cd0.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.a203ce94.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c340093424a8e739d6a1",
-    "url": "/static/js/main.b9f82905.chunk.js"
+    "revision": "913a526ab70ada7f4f36",
+    "url": "/static/js/main.6b4dc70f.chunk.js"
   },
   {
     "revision": "b782c8f5c1804d0a8711",
     "url": "/static/js/runtime-main.30305a7d.js"
   },
   {
+    "revision": "edf1b3b81c4a48ee473f4964ff6340df",
+    "url": "/static/media/COVIDforecasts-logo-white-2.edf1b3b8.png"
+  },
+  {
     "revision": "a16e02041ed6fdfdea1a87a6fdfd7d3b",
     "url": "/static/media/coronabg.a16e0204.jpg"
+  },
+  {
+    "revision": "d19bbdb4c119b7d984414179907a58d1",
+    "url": "/static/media/githubwhitetrans.d19bbdb4.png"
   },
   {
     "revision": "f40ed5b1e791e9d2479ba8b5e67f2df8",

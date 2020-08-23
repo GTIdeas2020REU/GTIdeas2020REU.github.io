@@ -38,6 +38,10 @@ export default class Aggregators extends React.Component {
               <p></p>
             </Col>
             <Col xs={12} sm={4} className="sidebar-section">
+              <h3>Team</h3>
+              <p>The Aggregators Project was led by professors Jacob Abernethy and Bo Waggoner, with special contributions from Raf Frongillo.
+                The students on the team included Gayeon (Sarah) Yoo, Aniruddha Murali, and Rachel Ombok.
+              </p>
               <p><a href='https://www.covidforecasts.com'>COVIDforecasts</a></p>
               <img src={graphpic} width={400}/>
             </Col>

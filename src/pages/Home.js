@@ -55,7 +55,10 @@ export default class Home extends React.Component {
             included in the program are the Aggregators and Model Projects. They gain experience in developing the project, collecting data, and analyzing the results.
             In addition to the additional projects, students attend weekly seminars with topics such as reading a scientific paper or workshops on different technologies.
               </p>
-            <p className='biomaintext'> The topical focus of the projects are on forecasting, prediction markets, machine learning and mathematical modelling. Check out all of the work done for the projects <a href='https://github.com/GTIdeas2020REU'>here.</a> </p>
+            <p className='biomaintext'> The topical focus of the projects are on forecasting, prediction markets, machine learning and mathematical modelling. Check out all of the work done for the projects on Github <a href='https://github.com/GTIdeas2020REU'>here.</a> </p>
+
+            <Button bsstyle="primary" href='/aggregators' size='lg'>Aggregator Project</Button>{'  '}
+            <Button bsstyle="primary" href='/modelgroup' size='lg'>Model Project</Button>{'  '}
           </Col>
           <Col xs={12} sm={4} className="person-wrapper">
             
